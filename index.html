@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 0.6875rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="card-container">
+      <div id="left-card-container">
+        <p id="your-result" class="text">Your Result</p>
+        <div id="marks-circle">
+          <p id="obtained-marks" class="text">76</p>
+          <p class="text total-marks">of 100</p>
+        </div>
+        <p id="compliment" class="text">Great</p>
+        <p id="description" class="text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div id="right-card-container">
+        <p id="summary" class="text">Summary</p>
+        <div id="aspect-tiles-container">
+          <div id="reaction-bg" class="aspect-tile">
+            <div class="part-1-aspect">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="reaction icon"
+              />
+              <p id="reaction-text" class="text">Reaction</p>
+            </div>
+            <div class="part-2-aspect">
+              <p class="text">80</p>
+              <p class="text total-marks">/ 100</p>
+            </div>
+          </div>
+          <div id="Memory-bg" class="aspect-tile">
+            <div class="part-1-aspect">
+              <img src="./assets/images/icon-memory.svg" alt="memory icon" />
+              <p id="memory-text" class="text">Memory</p>
+            </div>
+            <div class="part-2-aspect">
+              <p class="text">92</p>
+              <p class="text total-marks">/ 100</p>
+            </div>
+          </div>
+          <div id="Verbal-bg" class="aspect-tile">
+            <div class="part-1-aspect">
+              <img src="./assets/images/icon-verbal.svg" alt="verbal icon" />
+              <p id="verbal-text" class="text">Verbal</p>
+            </div>
+            <div class="part-2-aspect">
+              <p class="text">86</p>
+              <p class="text total-marks">/ 100</p>
+            </div>
+          </div>
+          <div id="Visual-bg" class="aspect-tile">
+            <div class="part-1-aspect">
+              <img src="./assets/images/icon-visual.svg" alt="visual icon" />
+              <p id="visual-text" class="text">Visual</p>
+            </div>
+            <div class="part-2-aspect">
+              <p class="text">88</p>
+              <p class="text total-marks">/ 100</p>
+            </div>
+          </div>
+        </div>
+        <div id="button-container">
+          <button id="continue-button" class="text">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
